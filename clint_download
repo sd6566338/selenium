@@ -1,0 +1,6 @@
+import request
+url = 'http://xxx.xx'
+myfile = request.get(url)
+open('path/to/file','wb').write(myfile.content)
+##########
+
